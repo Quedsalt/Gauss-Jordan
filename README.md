@@ -3,13 +3,11 @@ Web application where the Gauss-Jordan algorithm is executed
 Se me olvido poner lo que hiba aca
 mientras termino y actualizo todo
 
-aaa! se me olvido el html y css
-bueno no utilizar ninguno de esos 2 por el momento
-solo js
+!Actualizacion mejore mi scrypt
+cambie el codigo y me fui por un codigo mas limpio
+ahora puede operar el metodo de Gauss Jordan correctamente
 
-Script.js es donde lo termine
-ejemplos.js es donde modificaba el codigo con nuevo codigo para noaafectar mi codigo original
-ejemplos es donde hice mayormente el codigo y entendia como usar el metodo de 
-gauss jordan en codigo pero me salen errores que no se mo arreglar
+por lo que podre continuar en modificar el html y css que estaban adaptados a mi primer codigo y no al actual
 
-lo deje para que pudiera ver el progreso y las ideas que se me hiban ocurriendo
+nota para mi profesor:
+Odio a Gauss Jordan
