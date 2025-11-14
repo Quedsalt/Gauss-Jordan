@@ -14,9 +14,9 @@ function arraysIguales(arr1, arr2){
 }
 
 // Filas
-let fila1 = [1, -1, 3, 13]
-let fila2 = [1, 1, 1, 11]
-let fila3 = [2, 2, -1, 7]
+let fila1 = [0, 0, 0, 0]
+let fila2 = [0, 0, 0, 0]
+let fila3 = [0, 0, 0, 0]
 
 // Matrices objetivo
 let matrizFinal = [...fila1.slice(0, 3), ...fila2.slice(0, 3), ...fila3.slice(0, 3)]
@@ -113,8 +113,12 @@ while (!arraysIguales(matrizFinal, matrizIdentidad) && paso < maxPasos) {
 }
 
 // Imprimir resultados
-console.log("X = " + fila1[3])
-console.log("Y = " + fila2[3])
-console.log("Z = " + fila3[3])
+function llamarResultado() {
+    console.log("X = " + fila1[3])
+    console.log("Y = " + fila2[3])
+    console.log("Z = " + fila3[3])
+}
+
+
 
 //profe si llega a leer esto odio a Gauss Jordan
