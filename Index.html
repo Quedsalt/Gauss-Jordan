@@ -9,14 +9,13 @@
 <body>
   <h2>Solución de Sistema de Ecuaciones - Gauss-Jordan</h2>
   
-  <label for="tamaño">Número de ecuaciones:</label>
-  <input type="numero" id="tamaño" min="1" value="3" step="1"s>
+  <h3>Matriz 3x4</h3>
   <button onclick="generarMatriz()">Generar Matriz</button>
 
   <div id="matrizContainer" style="display: none;">
     <h3>Matriz Aumentada (coeficientes y términos independientes)</h3>
     <table id="tablaMatriz"></table>
-    <button onclick="resolverSistema()">Resolver</button>
+    <button onclick="llamarResultado()">Resolver</button>
   </div>
 
   <div id="resultado" class="solution"></div>
