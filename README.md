@@ -1,13 +1,25 @@
-# Gauss-Jordan
-Web application where the Gauss-Jordan algorithm is executed
-Se me olvido poner lo que hiba aca
-mientras termino y actualizo todo
+# Gauss-Jordan Solver
 
-!Actualizacion mejore mi scrypt
-cambie el codigo y me fui por un codigo mas limpio
-ahora puede operar el metodo de Gauss Jordan correctamente
+## Descripción
+Aplicación web que implementa el algoritmo de Gauss-Jordan para resolver sistemas de ecuaciones lineales representados como matrices aumentadas 3x4.
 
-por lo que podre continuar en modificar el html y css que estaban adaptados a mi primer codigo y no al actual
+## Funcionalidad
+- Ejecuta el método de Gauss-Jordan sobre matrices aumentadas de tamaño 3x4
+- Permite ingresar manualmente los valores de la matriz
+- Muestra los resultados directamente en la interfaz web
+- Opera exclusivamente con números enteros
 
-nota para mi profesor:
-Odio a Gauss Jordan
+## Instrucciones de uso
+1. Ingresa los valores numéricos en la matriz aumentada 3x4
+2. Ejecuta el algoritmo de Gauss-Jordan
+3. Observa el resultado en formato vertical en la página
+4. Si el sistema no tiene solución, se mostrará "NAN"
+
+## Características técnicas
+- Interfaz web intuitiva
+- Presentación clara de resultados
+
+## Nota del desarrollador
+Realizar este trabajo fue particularmente frustrante. El método de Gauss-Jordan es tedioso y propenso a errores. Fue un proceso molesto y desagradable que consumió mucho tiempo y cabeza.
+
+### Odio a Gauss Jordan
