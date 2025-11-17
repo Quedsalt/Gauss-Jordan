@@ -10,15 +10,41 @@
   <h2>Solución de Sistema de Ecuaciones - Gauss-Jordan</h2>
   
   <h3>Matriz 3x4</h3>
-  <button onclick="generarMatriz()">Generar Matriz</button>
+  <button id="Restablecer" type="button" style="display: none;" onclick="location.reload();">Restablecer</button>
+  <button id="buttonGenerarMatriz" onclick="generarMatriz()">Generar Matriz</button>
 
   <div id="matrizContainer" style="display: none;">
-    <h3>Matriz Aumentada (coeficientes y términos independientes)</h3>
-    <table id="tablaMatriz"></table>
-    <button onclick="llamarResultado()">Resolver</button>
+    <h3>Matriz Aumentada</h3>
+    <table id="tablaMatriz" border="1">
+        <!-- Es mejor sacar el form de la tabla o quitarlo si no se va a enviar -->
+        <tbody> 
+          <tr>
+            <td> <input type="number" value="1"></td>
+            <td> <input type="number" value="-1"></td>
+            <td> <input type="number" value="3"></td>
+            <td> <input type="number" value="13"></td>
+          </tr>
+          <tr>
+            <td> <input type="number" value="1"></td>
+            <td> <input type="number" value="1"></td>
+            <td> <input type="number" value="1"></td>
+            <td> <input type="number" value="11"></td>
+          </tr>
+          <tr>
+            <td> <input type="number" value="2"></td>
+            <td> <input type="number" value="2"></td>
+            <td> <input type="number" value="-1"></td>
+            <td> <input type="number" value="7"></td>
+          </tr>
+        </tbody>
+    </table>
+
+    <button id="recopilarMatrizButton" onclick="recopilarMatriz()">Resultado</button>
   </div>
 
-  <div id="resultado" class="solution"></div>
+  <div class="solution">
+    <p id="output"></p>
+  </div>
 
   <script src="Script.js"></script>
 </body>
